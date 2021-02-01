@@ -1,3 +1,8 @@
+/*
+    What you need to know : 
+        Template Literals - https://developer.mozilla.org/en-us/docs/Web/JavaScript/Reference/Template_literals
+*/
+
 // NO TOUCHING! (please)
 const die1 = Math.floor(Math.random() * 6) + 1 //random number from 1-6
 const die2 = Math.floor(Math.random() * 6) + 1 //random number from 1-6
