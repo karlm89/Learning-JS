@@ -12,3 +12,8 @@ function capitalize(word) {
     return null
   }
 }
+
+// Arrow function version ... you know... for fun...
+const capitalizeArrow = (word) => {
+  return word.replace(/^\w/, (firstLetter) => firstLetter.toUpperCase())
+}
