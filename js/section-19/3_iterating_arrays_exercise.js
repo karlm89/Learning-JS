@@ -11,5 +11,5 @@ const people = ['Scooby', 'Velma', 'Daphne', 'Shaggy', 'Fred'] //DONT TOUCH THIS
 
 // not equal to since that would go passed the index of the array. Which would result in 'undefined' in the console.
 for (let i = 0; i < people.length; i++) {
-	console.log(people[i].toUpperCase())
+  console.log(people[i].toUpperCase())
 }
