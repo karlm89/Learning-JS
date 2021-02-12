@@ -29,3 +29,13 @@ const returnDay = (day) => {
       return null
   }
 }
+
+// Shorter clearner way, and you don't have to use a switch statement.
+const returnDay = (day) => {
+  let dayArray = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+  if (day >= 1 && day <= 7) {
+    return dayArray[day - 1]
+  } else {
+    return null
+  }
+}
