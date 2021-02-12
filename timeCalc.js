@@ -25,6 +25,6 @@ function calculateTime(hours, minutes) {
     return `${days} day(s) : ${hours} hour(s) : ${minutes} minute(s) == ${totalTime}`
   }
 
-  return `${hours}:${minutes} == ${totalTime}`
+  return `${hours}:${minutes} OR ${totalTime}`
   isRunning = false
 }
