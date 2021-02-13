@@ -1,8 +1,4 @@
-function cleanNames(names) {
-  let newArray = names.map(function (name) {
-    return name.trim()
-  })
-  return newArray
-}
+// Returning implicately in a single line.
+const greet = (name) => `Hey ${name}!`
 
-console.log(cleanNames(['  timothee', '      darth_hater', 'sassyfrassy    ', '  elton john']))
+console.log(greet('Karl'))
